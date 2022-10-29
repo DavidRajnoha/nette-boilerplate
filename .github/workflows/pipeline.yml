@@ -1,6 +1,6 @@
 name: Build and push to TdA
 
-on: [push]
+on: [release]
 
 jobs:
   build:
