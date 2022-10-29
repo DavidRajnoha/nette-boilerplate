@@ -2,7 +2,7 @@ name: Build and push to TdA
 
 on:
   release:
-    types: [published]
+    types: [created, updated]
 
 jobs:
   build:
